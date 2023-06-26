@@ -12,9 +12,8 @@ Navegação fácil e intuitiva para que você possa explorar meu conteúdo de fo
 
 ## Tecnologias Utilizadas ##
 
-HTML5
-CSS3
-JavaScript
+Projeto em andamento **
+Utilizando React Vite
 
 ## Como Contribuir ##
 
