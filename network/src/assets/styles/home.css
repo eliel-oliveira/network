@@ -1,0 +1,94 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid;
+  border-radius: 30px;
+  height: 90vh;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  border: 3px solid rgba(19, 19, 124, 0.637);
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.title {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.title h1 {
+  margin: 0;
+}
+
+.redes-principais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.redes-principais a {
+  width: 240px;
+  height: 50px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  justify-content: center;
+  font-family: "roboto", sans-serif;
+  font-size: larger;
+  font-weight: 200;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(19, 19, 124, 0.637);
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.redes-principais a:hover {
+  background-color: rgba(19, 19, 124, 0.9);
+}
+
+.sociais-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.insta-logo {
+  fill: white;
+  width: 40px;
+  height: 40px;
+}
+
+.face-logo {
+  fill: white;
+  width: 40px;
+  height: 40px;
+}
+
+.pintrest-logo {
+  fill: white;
+  width: 40px;
+  height: 40px;
+}
