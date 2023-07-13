@@ -8,7 +8,7 @@ function Home() {
       <div className="content">
         <div className="title">
           <h1>Eliel Oliveira</h1>
-          <span>Desenvolvedor web</span>
+          <span>Desenvolvedor Web</span>
         </div>
         <div className="redes-principais">
           <a

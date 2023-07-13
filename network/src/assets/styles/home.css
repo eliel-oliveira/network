@@ -3,9 +3,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  border: 2px solid;
+  /* border: 2px solid; */
   border-radius: 30px;
   height: 90vh;
+  background: radial-gradient(
+    ellipse at center,
+    rgb(0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
 }
 
 .profile-image {
@@ -13,7 +18,7 @@
   height: 150px;
   border-radius: 50%;
   position: relative;
-  border: 3px solid rgba(19, 19, 124, 0.637);
+  border: 3px solid rgb(0, 247, 255);
 }
 
 .content {
@@ -36,6 +41,23 @@
 
 .title h1 {
   margin: 0;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.685),
+    rgb(255, 255, 255)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: colorFade 3s infinite;
+}
+
+@keyframes colorFade {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 185px;
+  }
 }
 
 .redes-principais {
@@ -55,18 +77,21 @@
   justify-content: center;
   font-family: "roboto", sans-serif;
   font-size: larger;
+  font-weight: 900;
   font-weight: 200;
   border-radius: 10px;
   color: white;
   text-decoration: none;
-  background-color: rgba(19, 19, 124, 0.637);
+  background-color: rgba(255, 17, 0, 0.596);
   display: flex;
   align-items: center;
   padding-left: 10px;
+  box-shadow: 0px 0px 10px 0px rgb(0, 217, 255);
 }
 
 .redes-principais a:hover {
-  background-color: rgba(19, 19, 124, 0.9);
+  background-color: rgb(255, 0, 0);
+  box-shadow: 0px 0px 20px 0px rgb(0, 217, 255);
 }
 
 .sociais-links {
@@ -81,13 +106,41 @@
   height: 40px;
 }
 
+.insta-logo:hover {
+  fill: #fd1d1d;
+  background-color: transparent;
+  border-radius: 13px;
+  box-shadow: 0px 0px 20px 0px #fd1d1d;
+  width: 40px;
+  height: 40px;
+}
+
 .face-logo {
   fill: white;
   width: 40px;
   height: 40px;
 }
 
+.face-logo:hover {
+  fill: rgb(0, 183, 255);
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 0px rgb(0, 183, 255);
+  width: 40px;
+  height: 40px;
+}
+
 .pintrest-logo {
+  fill: white;
+  width: 40px;
+  height: 40px;
+}
+
+.pintrest-logo:hover {
+  fill: white;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 0px white;
   fill: white;
   width: 40px;
   height: 40px;
